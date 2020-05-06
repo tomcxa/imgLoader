@@ -3,7 +3,7 @@ import PreviewImgEl from './PreviewImg';
 /* eslint-disable no-unused-vars */
 const AppController = {
     container: document.querySelector('.file-loader-container'),
-    URL: 'http://localhost:7070',
+    URL: 'https://img-server-test.herokuapp.com',
     getElements() {
         return {
             dropArea: this.container.querySelector('.drop-area'),
